@@ -1,0 +1,11 @@
+var firstname="Yuvraj ";
+var lastname=" Vir Ghaley";
+var changename= firstname.concat(lastname);
+console.log(changename);
+console.log(changename.length);
+var newname=changename.replace("Yuvraj","Jr");
+console.log(newname);
+var capital = newname.toUpperCase(); 
+console.log(capital);
+var small = newname.toLowerCase();
+console.log(small);
